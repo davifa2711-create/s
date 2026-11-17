@@ -1,0 +1,79 @@
+[
+ {
+  "id": "01",
+  "arquivo": "fala_01_br.mp3",
+  "idioma": "Português (Brasil)",
+  "cena": 1,
+  "inicio": 1.8,
+  "fim": 3.6,
+  "quem": "Jornal Brasil",
+  "texto": "Atenção: um meteoro gigante está em rota de colisão com a Terra!",
+  "legenda": "BRASIL: Atenção: um meteoro gigante está em rota de colisão com a Terra!"
+ },
+ {
+  "id": "02",
+  "arquivo": "fala_02_us.mp3",
+  "idioma": "Inglês (EUA)",
+  "cena": 1,
+  "inicio": 3.8,
+  "fim": 5.6,
+  "quem": "Jornal EUA",
+  "texto": "Breaking news: a giant meteor is heading straight for Earth!",
+  "legenda": "EUA: Urgente: um meteoro gigante vem direto para a Terra!"
+ },
+ {
+  "id": "03",
+  "arquivo": "fala_03_jp.mp3",
+  "idioma": "Japonês",
+  "cena": 1,
+  "inicio": 5.8,
+  "fim": 7.6,
+  "quem": "Jornal Japão",
+  "texto": "速報です。巨大な隕石が地球に向かっています！",
+  "legenda": "JAPÃO: Urgente! Um meteoro gigante está indo em direção à Terra!"
+ },
+ {
+  "id": "04",
+  "arquivo": "fala_04_fr.mp3",
+  "idioma": "Francês",
+  "cena": 1,
+  "inicio": 7.8,
+  "fim": 9.6,
+  "quem": "Jornal França",
+  "texto": "Alerte : une météorite géante fonce droit sur la Terre !",
+  "legenda": "FRANÇA: Alerta: um meteoro gigante vem direto para a Terra!"
+ },
+ {
+  "id": "05",
+  "arquivo": "fala_05_eg.mp3",
+  "idioma": "Árabe (Egito)",
+  "cena": 1,
+  "inicio": 9.8,
+  "fim": 11.6,
+  "quem": "Jornal Egito",
+  "texto": "عاجل: نيزك ضخم يقترب من الأرض!",
+  "legenda": "EGITO: Urgente: um meteoro enorme se aproxima da Terra!"
+ },
+ {
+  "id": "06",
+  "arquivo": "fala_evangelista.mp3",
+  "idioma": "Português (Brasil)",
+  "cena": 2,
+  "inicio": 16.8,
+  "fim": 19.2,
+  "quem": "Evangelista",
+  "texto": "Essa missão é minha.",
+  "legenda": "Essa missão é minha."
+ },
+ {
+  "id": "07",
+  "arquivo": "fala_07_br.mp3",
+  "idioma": "Português (Brasil)",
+  "cena": 7,
+  "inicio": 56.0,
+  "fim": 59.0,
+  "quem": "Jornal Brasil (voz em off)",
+  "texto": "Inacreditável! O Sol voltou a brilhar!",
+  "legenda": "Inacreditável! O Sol voltou a brilhar!"
+ }
+]
