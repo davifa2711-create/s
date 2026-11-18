@@ -22,3 +22,8 @@ Se um arquivo não existir, o vídeo é montado com silêncio no lugar (sem erro
 - Jornais (01–05, 07): voz de âncora, "urgent / breaking news", estabilidade média, velocidade um pouco acima do normal.
 - Evangelista (06): voz masculina jovem, firme e calma, determinação. Pode deixar 0,3 s de silêncio no começo.
 - Exporte em MP3 (qualquer taxa). Volume é ajustado na mixagem (vozes ficam acima da trilha automaticamente).
+
+## Vozes geradas (já em `audio/`)
+Modelo `eleven_multilingual_v2`, vozes pré-prontas do ElevenLabs (conta gratuita não usa vozes da biblioteca via API):
+01 e 07 Brian · 02 Sarah · 03 Matilda · 04 Daniel · 05 Adam · 06 Liam.
+Silêncio das pontas cortado; falas 01–05 aceleradas para ~2,4 s; fala 06 com 0,3 s de silêncio no início.
