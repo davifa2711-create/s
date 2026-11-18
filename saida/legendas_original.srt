@@ -1,0 +1,28 @@
+1
+00:00:01,800 --> 00:00:03,600
+Atenção: um meteoro gigante está em rota de colisão com a Terra!
+
+2
+00:00:03,800 --> 00:00:05,600
+Breaking news: a giant meteor is heading straight for Earth!
+
+3
+00:00:05,800 --> 00:00:07,600
+速報です。巨大な隕石が地球に向かっています！
+
+4
+00:00:07,800 --> 00:00:09,600
+Alerte : une météorite géante fonce droit sur la Terre !
+
+5
+00:00:09,800 --> 00:00:11,600
+عاجل: نيزك ضخم يقترب من الأرض!
+
+6
+00:00:16,800 --> 00:00:19,200
+Essa missão é minha.
+
+7
+00:00:56,000 --> 00:00:59,000
+Inacreditável! O Sol voltou a brilhar!
+

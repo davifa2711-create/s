@@ -1,5 +1,6 @@
+# frames JPG brutos (315 MB) não vão para o git: os clipes em saida/final/cenas/ contêm as mesmas imagens
 frames/
-saida/preview/
-saida/final/
+saida/preview/cenas/
+saida/*/lista.txt
 saida/*.log
-audio/gerado/
+__pycache__/

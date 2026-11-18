@@ -14,7 +14,7 @@ export NODE_PATH="${NODE_PATH:-$(npm root -g 2>/dev/null)}"
 
 if [[ "$MODO" == "audio" ]]; then
   ALVO="${2:-final}"
-  python3 scripts/parse_falas.py
+  python3 scripts/parse_falas.py; python3 scripts/gerar_legendas.py
   python3 scripts/gerar_trilha.py
   [[ "$ALVO" == "final" ]] && OUT=saida/video_final.mp4 || OUT=saida/preview.mp4
   python3 scripts/mixar.py "saida/$ALVO/video_sem_audio.mp4" "$OUT"
@@ -34,7 +34,7 @@ if [[ "${2:-}" == "cena" ]]; then
 fi
 
 mkdir -p "saida/$MODO/cenas" audio
-python3 scripts/parse_falas.py
+python3 scripts/parse_falas.py; python3 scripts/gerar_legendas.py
 
 for c in $CENAS; do
   node scripts/render.js --modo "$MODO" --cena "$c" --workers "$WORKERS"

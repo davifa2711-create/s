@@ -5,6 +5,12 @@ Vídeo 3D vertical (1080x1920, 30 fps, 60 s), low-poly, renderizado só com CPU:
 
 - `saida/video_final.mp4` — vídeo final (H.264 + AAC)
 - `saida/preview.mp4` — prévia rápida (540x960, 12 fps)
+- `saida/legendas.srt` (PT-BR) e `saida/legendas_original.srt` (texto no idioma de cada fala) — também já vêm desenhadas no vídeo
+- `saida/quadros/` — um quadro-chave de cada cena
+- `saida/final/cenas/cenaN.mp4` + `saida/final/video_sem_audio.mp4` — clipes de cada cena (os frames já codificados). Com eles, `./render.sh audio` e `./render.sh final cena N` funcionam direto num clone novo
+- `audio/gerado/trilha.wav` — trilha + efeitos sintetizados
+
+Os frames JPG brutos (`frames/`, ~315 MB) não vão para o git; são recriados idênticos pelo `./render.sh` (cada frame depende só do tempo).
 
 ## Comandos
 ```bash
